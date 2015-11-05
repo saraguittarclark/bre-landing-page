@@ -1,0 +1,1 @@
+$(document).ready(function(){$('a[href^="#"]').click(function(t){t.preventDefault(),$(window).stop(!0).scrollTo(this.hash,{duration:500,interrupt:!0})})});
